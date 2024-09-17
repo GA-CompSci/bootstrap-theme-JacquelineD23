@@ -37,5 +37,8 @@ header.masthead{
 /******* COLORS ******/
 /********************/
 .btn-primary{
-    
+    background: #001219;
+}
+.btn-primary:hover{
+    background: #4e4e4e;
 }
