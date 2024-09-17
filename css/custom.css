@@ -33,12 +33,22 @@ header.masthead{
     background-image: url('../img/broadway.webp')
 }
 
+.masthead h1{
+    color: #001219;
+    font-size: 65px !important;
+}
+
+.masthead p {
+    color: #bb3e03;
+    text-shadow: 1px 1px 2px #001219;
+}
+
 /********************/
 /******* COLORS ******/
 /********************/
 .btn-primary{
-    background: #001219;
+    background: #bb3e03;
 }
 .btn-primary:hover{
-    background: #4e4e4e;
+    background: #bb3d03dc;
 }
