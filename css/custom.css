@@ -39,8 +39,8 @@ header.masthead{
 }
 
 .masthead p {
-    color: #bb3e03;
-    text-shadow: 1px 1px 2px #001219;
+    color: #001219;
+    text-shadow: 1px 1px 3px #001219;
 }
 
 /********************/
@@ -49,6 +49,26 @@ header.masthead{
 .btn-primary{
     background: #bb3e03;
 }
+
 .btn-primary:hover{
     background: #bb3d03dc;
+}
+
+hr.divider {
+    background-color: #bb3e03;
+}
+
+.bg-primary {
+    background-color: #005f73 !important;
+}
+
+hr.divider-light {
+    background-color: #fff;
+}
+
+/********************/
+/******* NAV ******/
+/********************/
+#mainNav.navbar-shrink {
+    background-color: #e9d8a6;
 }
