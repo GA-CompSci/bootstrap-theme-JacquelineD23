@@ -22,7 +22,8 @@ body, p {
     font-family: "SUSE", system-ui;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Fascinate Inline", system-ui;
 }
 
@@ -66,9 +67,21 @@ hr.divider-light {
     background-color: #fff;
 }
 
+.text-primary {
+    color: #005f73 !important;
+}
+
 /********************/
 /******* NAV ******/
 /********************/
 #mainNav.navbar-shrink {
     background-color: #e9d8a6;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+    color: #005f73;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #005f73 !important;
 }
