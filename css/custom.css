@@ -91,3 +91,28 @@ hr.divider-light {
         color: #005f73;
     }
 }
+
+@media (min-width: 992px) {
+    #mainNav .navbar-brand {
+        color: #fff;
+    }
+}
+
+@media (min-width: 992px) {
+    #mainNav .navbar-nav .nav-item .nav-link {
+        color: #fff;
+        padding: 0 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #mainNav .navbar-brand:hover {
+        color: #94d2bd;
+    }
+}
+
+@media (min-width: 992px) {
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+        color: #94d2bd;
+    }
+}
