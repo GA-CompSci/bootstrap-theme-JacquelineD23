@@ -71,6 +71,10 @@ hr.divider-light {
     color: #005f73 !important;
 }
 
+.bg-dark {
+    background-color: #005f73 !important;
+}
+
 /********************/
 /******* NAV ******/
 /********************/
@@ -115,4 +119,24 @@ hr.divider-light {
     #mainNav .navbar-nav .nav-item .nav-link:hover {
         color: #94d2bd;
     }
+}
+
+/********************/
+/******* TOP 6 ******/
+/********************/
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #001219b9;
+}
+
+/********************/
+/******* Other ******/
+/********************/
+
+#services {
+    padding-bottom: 190px;
+}
+
+#services {
+    padding-top: 190px;
 }
