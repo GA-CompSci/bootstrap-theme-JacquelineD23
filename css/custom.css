@@ -99,6 +99,7 @@ hr.divider-light {
 @media (min-width: 992px) {
     #mainNav .navbar-brand {
         color: #fff;
+        text-shadow: 1px 1px 3px #001219;
     }
 }
 
@@ -106,6 +107,7 @@ hr.divider-light {
     #mainNav .navbar-nav .nav-item .nav-link {
         color: #fff;
         padding: 0 1rem;
+        text-shadow: 1px 1px 3px #001219;
     }
 }
 
